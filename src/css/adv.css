@@ -26,7 +26,7 @@
 }
 
 .background-image {
-    background-image: url(../img/img-adv/adv_bg_mobile.jpg);
+    background-image: url(/img/img-adv/adv_bg_mobile.jpg);
     background-size: cover;
     background-position: center;
     opacity: 0.2;
@@ -87,14 +87,14 @@
 /* Retina для мобильних */
 @media screen and (max-width: 767px) and (min-resolution: 192dpi) {
     .background-image {
-        background-image: url(../img/img-adv/adv_bg_mobile@2x.jpg);
+        background-image: url(/img/img-adv/adv_bg_mobile@2x.jpg);
     }
 }
 
 /* Планшет */
 @media screen and (min-width: 768px) {
     .background-image {
-        background-image: url(../img/img-adv/adv_bg_tablet.jpg);
+        background-image: url(/img/img-adv/adv_bg_tablet.jpg);
     }
 
     /* padding секції = половина відстані на макеті між судніми секціями*/
@@ -121,14 +121,14 @@
 /* Retina для планшету */
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
     .background-image {
-        background-image: url(../img/img-adv/adv_bg_tablet@2x.jpg);
+        background-image: url(/img/img-adv/adv_bg_tablet@2x.jpg);
     }
 }
 
 /* Десктоп */
 @media screen and (min-width: 1280px) {
     .background-image {
-        background-image: url(../img/img-adv/adv_bg_desktop.jpg);
+        background-image: url(/img/img-adv/adv_bg_desktop.jpg);
     }
 
     /* padding секції = половина відстані на макеті між судніми секціями*/
@@ -156,6 +156,6 @@
 /* Retina для десктопу */
 @media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
     .background-image {
-        background-image: url(../img/img-adv/adv_bg_desktop@2x.jpg);
+        background-image: url(/img/img-adv/adv_bg_desktop@2x.jpg);
     }
 }

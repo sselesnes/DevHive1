@@ -1,3 +1,161 @@
-.adv {
-background-color: #0FF
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* padding секції = половина відстані на макеті між судніми секціями*/
+.advertisement {
+    padding: 30px 0;
+}
+
+.container-adv {
+    max-width: 335px;
+    padding: 60px 28px;
+    background-color: #0c0c0c;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.background-image {
+    background-image: url(../img/img-adv/adv_bg_mobile.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+
+.container-adv-text {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.description-adv {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+}
+
+.text-light {
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.btn-adv {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    border-radius: 16px;
+    width: 160px;
+    height: 48px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    text-align: center;
+    color: #fbfbfb;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn-adv:hover,
+.btn-adv:focus {
+    background-color: #fbfbfb;
+    color: #0c0c0c;
+}
+
+/* Retina для мобильних */
+@media screen and (max-width: 767px) and (min-resolution: 192dpi) {
+    .background-image {
+        background-image: url(../img/img-adv/adv_bg_mobile@2x.jpg);
+    }
+}
+
+/* Планшет */
+@media screen and (min-width: 768px) {
+    .background-image {
+        background-image: url(../img/img-adv/adv_bg_tablet.jpg);
+    }
+
+    /* padding секції = половина відстані на макеті між судніми секціями*/
+    .advertisement {
+        padding: 40px 0;
+    }
+
+    .container-adv {
+        padding: 80px 64px;
+        max-width: 704px;
+    }
+
+    .description-adv {
+        font-size: 48px;
+        line-height: 0.92;
+
+    }
+
+    .container-adv-text {
+        gap: 32px;
+    }
+}
+
+/* Retina для планшету */
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .background-image {
+        background-image: url(../img/img-adv/adv_bg_tablet@2x.jpg);
+    }
+}
+
+/* Десктоп */
+@media screen and (min-width: 1280px) {
+    .background-image {
+        background-image: url(../img/img-adv/adv_bg_desktop.jpg);
+    }
+
+    /* padding секції = половина відстані на макеті між судніми секціями*/
+    .advertisement {
+        padding: 50px 0;
+    }
+
+    .container-adv {
+        padding: 83px 80px;
+        max-width: 1150px;
+    }
+
+    .container-adv-text {
+        flex-direction: row;
+        gap: 140px;
+    }
+
+    .description-adv {
+        font-size: 48px;
+        line-height: 0.92;
+        width: 690px;
+    }
+}
+
+/* Retina для десктопу */
+@media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+    .background-image {
+        background-image: url(../img/img-adv/adv_bg_desktop@2x.jpg);
+    }
 }

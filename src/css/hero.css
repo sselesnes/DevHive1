@@ -11,8 +11,11 @@ a {
   display: flex;
   flex-direction: column;
   gap: 28px;
-  width: 335px;
+  min-width: 320px;
+  max-width: 375px;
   margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .hero-tablet {
@@ -48,8 +51,8 @@ a {
 .pics-and-scroll {
   position: relative;
   display: flex;
-
   justify-content: space-between;
+  align-items: baseline;
 }
 .hero-list {
   display: flex;
@@ -66,9 +69,6 @@ a {
   left: 64px;
 }
 .hero-anchor {
-  right: 0;
-  top: 26px;
-  position: absolute;
   letter-spacing: -0.02em;
   text-decoration: underline;
   text-decoration-skip-ink: none;
@@ -83,29 +83,40 @@ a {
 }
 
 .hero-watch {
-  width: 375px;
+  width: 335px;
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
   .hero-div {
-    width: 768px;
+    max-width: 768px;
     flex-wrap: wrap;
   }
 
   .hero-tablet {
-    display: flex;
-    flex-wrap: wrap;
     gap: 11px;
+    flex-direction: row;
+  }
+
+  .hero-title {
+    font-size: 70px;
+  }
+
+  .collection {
+    font-size: 70px;
+    line-height: 0.85;
+  }
+
+  .hero-descr {
+    font-size: 16px;
+    line-height: 1.25;
   }
 
   .hero-header-text {
-    width: 557px;
-    height: 260px;
   }
 
   .pics-and-scroll {
-    width: 136px;
-    height: 260px;
   }
 
   .hero-amanda {
@@ -127,7 +138,5 @@ a {
   }
 
   .hero-anchor {
-    top: 240px;
-    right: 0;
   }
 }

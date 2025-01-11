@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 .hero {
   background-color: #fff;
   padding: 60px 20px 30px 20px;
@@ -10,6 +14,13 @@
   width: 335px;
   margin: auto;
 }
+
+.hero-tablet {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
 .hero-header-text {
 }
 .hero-title {
@@ -22,6 +33,10 @@
 }
 .collection {
   color: #3350e9;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
 }
 .hero-descr {
   font-weight: 500;
@@ -58,6 +73,13 @@
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #0c0c0c;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.hero-anchor:focus,
+.hero-anchor:hover {
+  color: #3350e9;
 }
 
 .hero-watch {

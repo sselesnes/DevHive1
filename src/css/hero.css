@@ -84,7 +84,6 @@ a {
 }
 
 .hero-watch {
-  width: 335px;
   display: flex;
   justify-content: center;
 }
@@ -93,6 +92,9 @@ a {
   .hero-div {
     max-width: 768px;
     flex-wrap: wrap;
+    min-width: unset;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
   .hero-tablet {
@@ -102,6 +104,7 @@ a {
 
   .hero-title {
     font-size: 70px;
+    line-height: 0.85;
   }
 
   .collection {
@@ -112,12 +115,15 @@ a {
   .hero-descr {
     font-size: 16px;
     line-height: 1.25;
+    width: 480px;
   }
 
   .hero-header-text {
   }
 
   .pics-and-scroll {
+    flex-direction: column;
+    width: 136px;
   }
 
   .hero-amanda {
@@ -139,5 +145,6 @@ a {
   }
 
   .hero-anchor {
+    font-size: 20px;
   }
 }

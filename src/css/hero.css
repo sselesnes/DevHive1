@@ -1,3 +1,166 @@
+a {
+  text-decoration: none;
+}
+
 .hero {
-background-color: #FF0
+  background-color: #fff;
+}
+
+.hero-div {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  min-width: 320px;
+  max-width: 375px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.hero-tablet {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.hero-header-text {
+}
+.hero-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 20px;
+}
+.collection {
+  color: #3350e9;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+}
+.hero-descr {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+  padding-right: 10px;
+}
+.pics-and-scroll {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.hero-list {
+  display: flex;
+}
+.hero-amanda {
+}
+.hero-ethan {
+  position: absolute;
+  left: 32px;
+}
+
+.hero-fleur {
+  position: absolute;
+  left: 64px;
+}
+.hero-anchor {
+  letter-spacing: -0.02em;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #0c0c0c;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.hero-anchor:focus,
+.hero-anchor:hover {
+  color: #3350e9;
+}
+
+.hero-watch {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-div {
+    max-width: 768px;
+    min-width: unset;
+    padding-left: 32px;
+    padding-right: 32px;
+    flex-direction: row;
+  }
+
+  .hero-tablet {
+    gap: 11px;
+    flex-direction: row;
+  }
+
+  .hero-title {
+    font-size: 70px;
+    line-height: 0.85;
+  }
+
+  .collection {
+    font-size: 70px;
+    line-height: 0.85;
+  }
+
+  .hero-descr {
+    font-size: 16px;
+    line-height: 1.25;
+    width: 480px;
+  }
+
+  .hero-header-text {
+  }
+
+  .pics-and-scroll {
+    flex-direction: column;
+    width: 136px;
+  }
+
+  .hero-amanda {
+    width: 56px;
+    height: 56px;
+  }
+  .hero-ethan {
+    position: absolute;
+    left: 41px;
+    width: 56px;
+    height: 56px;
+  }
+
+  .hero-fleur {
+    position: absolute;
+    left: 82px;
+    width: 56px;
+    height: 56px;
+  }
+
+  .hero-anchor {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-div {
+    max-width: 1280px;
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+
+  .hero-tablet {
+    gap: 407px;
+  }
+
+  .hero-header-text {
+    width: 597px;
+  }
 }

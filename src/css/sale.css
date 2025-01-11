@@ -1,3 +1,103 @@
 .sale {
-background-color: #FFF
+    background-color: #FFF
+}
+.sale-name {
+    background: #fbfbfb;
+    text-align: center;
+    color: #0C0C0C;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+}
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0px 65px;
+    width: 1280px;
+    height: 642px;
+}
+.sale-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+    width: 1150px;
+    height: 558px;
+}
+.product-images {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    width: 580px;
+    height: 558px;
+}
+.details-images {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    width: 132px;
+    height: 558px;
+} 
+.details-img {
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+}
+.product-sale {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 428px;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 50px;
+    background-color: #F3F3F3;
+}
+.product-details {
+    border-radius: 50px;
+    background-color: #3350E9;
+}
+.description-product {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    width: 389px;
+    height: 100px;
+    margin: 60px 20px 60px 81px;
+}
+.title-name {
+   font-weight: 600;
+   font-size: 32px; 
+   line-height: 36px;
+   letter-spacing: -0.02em;
+   color: #FBFBFB;
+}
+.prouct-tag {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+}
+.product-tags {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 8px;
+    width: 398px;
+    height: 76px;
 }

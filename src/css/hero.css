@@ -86,15 +86,16 @@ a {
 .hero-watch {
   display: flex;
   justify-content: center;
+  margin-top: 28px;
 }
 
 @media screen and (min-width: 768px) {
   .hero-div {
     max-width: 768px;
-    flex-wrap: wrap;
     min-width: unset;
     padding-left: 32px;
     padding-right: 32px;
+    flex-direction: row;
   }
 
   .hero-tablet {
@@ -146,5 +147,21 @@ a {
 
   .hero-anchor {
     font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-div {
+    max-width: 1280px;
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+
+  .hero-tablet {
+    gap: 407px;
+  }
+
+  .hero-header-text {
+    width: 597px;
   }
 }

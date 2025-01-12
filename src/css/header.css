@@ -122,7 +122,23 @@
     border-radius: 100%;
     background-color: #3350e9;
   }
-  /* ------#nav-link-current-dot----- */
+  /* ------nav-link-current-dot----- */
+.header-mobile-menu-nav-link.header-nav-current-dot {
+  position: relative;
+}
+.header-mobile-menu-nav-link.header-nav-current-dot::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: #3350e9;
+}
+/* ------#nav-link-current-dot----- */
+  
 }
 /* ----test -----*/
 
@@ -171,7 +187,6 @@
   transition: transform 1800ms ease-in-out;
   /* ============================================ */
   opacity: 1;
-  pointer-events: none;
   visibility: visible;
 }
 

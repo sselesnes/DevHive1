@@ -163,10 +163,14 @@ a {
   }
 
   .hero-tablet {
-    gap: 407px;
+    justify-content: space-between;
   }
 
   .hero-header-text {
     width: 597px;
+  }
+
+  .pics-and-scroll {
+    width: 146px;
   }
 }

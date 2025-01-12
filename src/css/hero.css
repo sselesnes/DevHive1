@@ -98,6 +98,7 @@ a {
     padding-right: 32px;
     padding-top: 80px;
     margin-bottom: 80px;
+    gap: 40px;
   }
 
   .hero-tablet {
@@ -152,6 +153,10 @@ a {
 
   .hero-anchor {
     font-size: 20px;
+  }
+
+  .hero-watch {
+    margin-top: 0;
   }
 }
 

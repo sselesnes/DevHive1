@@ -1,22 +1,146 @@
+.header-container {
+  height: 74px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo-txt {
+  display: block;
+  font-weight: 500;
+  line-height: 100%;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  cursor: pointer;
+}
+.header-burger-btn {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+.header-svg-burger-icon {
+  display: block;
+  stroke-width: 2.5px;
+  stroke: #0c0c0c;
+}
+.header-navigation-list,
+.header-social-item-list {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .header-container {
+    height: 92px;
+  }
+  .header-logo-txt {
+    font-size: 20px;
+  }
+  .header-svg-burger-icon {
+    width: 40px;
+    height: 40px;
+    stroke-width: 3px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .header-container {
+    height: 88px;
+  }
+  .header-logo-txt {
+    margin-right: 203px;
+  }
+  .header-navigation {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .header-navigation-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .header-navigation-list-item {
+    cursor: pointer;
+  }
+  .header-navigation-list-link {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    text-align: center;
+    color: #0c0c0c;
+  }
+
+  .header-social-item-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .header-social-item {
+    display: flex;
+    border: 1px solid rgba(12, 12, 12, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+  }
+
+  .header-social-icon-svg {
+    fill: #0c0c0c;
+    transform: scale(1);
+    transition: fill 300ms cubic-bezier(0.5, 0, 0.3, 1),
+      transform 300ms ease-in-out;
+  }
+  .header-social-item:hover .header-social-icon-svg {
+    fill: #3350e9;
+    transform: scale(1.2);
+  }
+  .header-burger-btn {
+    display: none;
+  }
+  /* ------nav-link-current-dot----- */
+
+  .header-navigation-list-link.header-nav-current-dot {
+    position: relative;
+  }
+  .header-navigation-list-link.header-nav-current-dot::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: #3350e9;
+  }
+  /* ------#nav-link-current-dot----- */
+}
+/* ----test -----*/
+
 /* sidebar-menu - */
 
 .sidebar-menu {
   position: fixed;
-
   top: 0;
   left: 0;
-
   width: 100%;
   height: 100%;
-
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
-
   background-color: rgba(10, 110, 84, 0.68);
-
   transition: opacity 600ms ease-in-out, visibility 600ms ease-in-out;
   z-index: 9999999999999;
+
 }
 
 .sidebar-menu.is-open {
@@ -63,6 +187,7 @@
   position: absolute;
   width: 34px;
   height: 34px;
+
   top: 24px;
   right: 24px;
   background-color: transparent;
@@ -171,7 +296,6 @@
     width: 20px;
     height: 20px;
   }
-}
 
 .header-mobile-menu-nav {
   margin-bottom: 350px;
@@ -194,6 +318,7 @@
 .header-mobile-menu-social-media-link-icon {
   width: 20px;
   height: 20px;
+}
 }
 
 @media screen and (min-width: 1280px) {

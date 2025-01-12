@@ -1,5 +1,5 @@
 .catalog {
-  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .catalog-show-more {
@@ -74,7 +74,6 @@
     line-height: 129%;
     text-align: center;
     color: #fbfbfb;
-    padding-bottom: 30px;
   }
 }
 

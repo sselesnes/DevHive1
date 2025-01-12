@@ -36,7 +36,7 @@
 }
 @media screen and (min-width: 768px) {
     .block-joint {
-        width: 704px;
+        width: 687px;
         height: 1116px;
     }
 }
@@ -133,7 +133,7 @@
 @media screen  and (min-width: 768px) {
     .product-details {
         margin: 0;
-        width: 704px;
+        width: 687px;
         height: 518px;
         padding: 30px 60px 40px 60px;
     }
@@ -157,6 +157,15 @@
         font-size: 32px;
         line-height: 36px;
         height: 72px;
+        width: 436px;
+    } 
+}
+@media screen and (min-width: 1280px) {
+    .title-name {
+        font-size: 32px;
+        line-height: 36px;
+        height: 72px;
+        width: 389px;
     } 
 }
 .description-product {

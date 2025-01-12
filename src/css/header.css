@@ -137,8 +137,8 @@
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
-  background-color: rgba(10, 110, 84, 0.68);
-  transition: opacity 600ms ease-in-out, visibility 600ms ease-in-out;
+  background-color: hsla(230, 62%, 35%, 0.327);
+  transition: opacity 500ms ease-in-out, visibility 500ms ease-in-out;
   z-index: 9999999999999;
 }
 
@@ -167,7 +167,7 @@
   /* =====animated menu appearance=========== */
 
   transform: translateX(0);
-  transition: transform 1800ms ease-in-out;
+  transition: transform 500ms ease-in-out;
   /* ============================================ */
   opacity: 1;
   visibility: visible;

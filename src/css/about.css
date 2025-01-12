@@ -1,11 +1,9 @@
-.about {
-  background-color: #0f0;
-}
-.about {
+
+.about-section {
   background-color: #fbfbfb;
   padding: 30px 20px 30px 20px;
 }
-.about .container.about {
+.about-section .container.about {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -17,6 +15,7 @@
   width: 335px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   padding: 40px 20px 40px 20px;
+  border: none;
 }
 .about-header {
   margin-bottom: 28px;
@@ -65,7 +64,7 @@
 }
 /* TABLET */
 @media (min-width: 768px) {
-  .about {
+  .about-section {
     padding: 40px 32px 40px 32px;
   }
   .about-header {
@@ -99,10 +98,10 @@
 }
 /* DESKTOP */
 @media (min-width: 1280px) {
-  .about {
+  .about-section {
     padding: 50px 65px 50px 65px;
   }
-  .about .container.about {
+  .about-section .container.about {
     flex-wrap: nowrap;
     justify-content: center;
   }

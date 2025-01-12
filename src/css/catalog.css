@@ -1,6 +1,7 @@
 .catalog {
-  background-color: #fbfbfb;
+  padding-top: 30px;
 }
+
 .catalog-show-more {
   display: none;
 }
@@ -73,6 +74,7 @@
     line-height: 129%;
     text-align: center;
     color: #fbfbfb;
+    padding-bottom: 30px;
   }
 }
 

@@ -15,6 +15,8 @@ a {
   margin: auto;
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 60px;
+  margin-bottom: 60px;
 }
 
 .hero-tablet {
@@ -94,12 +96,19 @@ a {
     min-width: unset;
     padding-left: 32px;
     padding-right: 32px;
-    flex-direction: row;
+    padding-top: 80px;
+    margin-bottom: 80px;
+    gap: 40px;
   }
 
   .hero-tablet {
-    gap: 11px;
     flex-direction: row;
+    gap: 11px;
+    justify-content: space-between;
+  }
+
+  .hero-header-text {
+    width: 557px;
   }
 
   .hero-title {
@@ -118,27 +127,25 @@ a {
     width: 480px;
   }
 
-  .hero-header-text {
-  }
-
   .pics-and-scroll {
     flex-direction: column;
     width: 136px;
+    align-items: self-end;
   }
 
   .hero-amanda {
     width: 56px;
     height: 56px;
+    position: absolute;
+    left: 0;
   }
   .hero-ethan {
-    position: absolute;
     left: 41px;
     width: 56px;
     height: 56px;
   }
 
   .hero-fleur {
-    position: absolute;
     left: 82px;
     width: 56px;
     height: 56px;
@@ -147,6 +154,10 @@ a {
   .hero-anchor {
     font-size: 20px;
   }
+
+  .hero-watch {
+    margin-top: 0;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -154,13 +165,22 @@ a {
     max-width: 1280px;
     padding-left: 65px;
     padding-right: 65px;
+    gap: 40px;
   }
 
   .hero-tablet {
-    gap: 407px;
+    justify-content: space-between;
   }
 
   .hero-header-text {
     width: 597px;
+  }
+
+  .pics-and-scroll {
+    width: 146px;
+  }
+
+  .hero-watch {
+    margin-top: 0;
   }
 }

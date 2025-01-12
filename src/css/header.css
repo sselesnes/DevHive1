@@ -125,25 +125,22 @@
   /* ------#nav-link-current-dot----- */
 }
 /* ----test -----*/
+
 /* sidebar-menu - */
 
 .sidebar-menu {
   position: fixed;
-
   top: 0;
   left: 0;
-
   width: 100%;
   height: 100%;
-
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
-
   background-color: rgba(10, 110, 84, 0.68);
-
   transition: opacity 600ms ease-in-out, visibility 600ms ease-in-out;
-  z-index: 99999;
+  z-index: 9999999999999;
+
 }
 
 .sidebar-menu.is-open {
@@ -188,6 +185,9 @@
 
 .header-mobile-menu-btn {
   position: absolute;
+  width: 34px;
+  height: 34px;
+
   top: 24px;
   right: 24px;
   background-color: transparent;
@@ -286,10 +286,16 @@
     background-position: center;
     background-size: cover;
   }
-  .header-mobile-menu-btn-icon {
-    transform: scale(1.18);
+
+  .header-mobile-menu-btn {
+    width: 40x;
+    height: 40px;
   }
-}
+
+  .header-mobile-menu-btn-icon {
+    width: 20px;
+    height: 20px;
+  }
 
 .header-mobile-menu-nav {
   margin-bottom: 350px;
@@ -310,7 +316,9 @@
 }
 
 .header-mobile-menu-social-media-link-icon {
-  transform: scale(1.1);
+  width: 20px;
+  height: 20px;
+}
 }
 
 @media screen and (min-width: 1280px) {

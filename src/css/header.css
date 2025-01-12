@@ -1,3 +1,5 @@
+/* sidebar-menu - */
+
 .sidebar-menu {
   position: fixed;
 
@@ -13,7 +15,7 @@
 
   background-color: rgba(90, 93, 255, 0.3);
 
-  transition: opacity 1200ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: opacity 600ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -32,15 +34,18 @@
   width: 200px;
   height: 100vh;
   padding: 240px 39px 40px;
+
   background-color: #0c0c0c;
   background-image: url(/img/header-mobile-menu/mob-bgimage@1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
+  /* =====animated menu appearance=========== */
+
   transform: translateX(0);
-
-  transition: transform 1200ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* ============================================ */
   opacity: 1;
   pointer-events: none;
   visibility: visible;
@@ -50,6 +55,7 @@
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
+
   transform: translateX(100%);
 }
 
@@ -111,6 +117,18 @@
   fill: #fbfbfb;
 }
 
+/* ========color/fill replacement at hover/focus============= */
+
+.header-mobile-menu-social-media-item:hover,
+.header-mobile-menu-social-media-item:focus {
+  border: 1px solid rgba(51, 80, 233, 0.1);
+}
+
+.header-mobile-menu-social-media-link:hover,
+.header-mobile-menu-social-media-link:focus {
+  fill: #3350e9;
+}
+
 /* ------nav-link-current-dot----- */
 
 .header-mobile-menu-nav-link.header-nav-current-dot {
@@ -137,6 +155,9 @@
     padding: 310px 101px 50px;
     background-color: #0c0c0c;
     background-image: url(/img/header-mobile-menu/tab-bgimage@1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
   .header-mobile-menu-btn-icon {
     transform: scale(1.18);

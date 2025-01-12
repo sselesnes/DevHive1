@@ -122,23 +122,7 @@
     border-radius: 100%;
     background-color: #3350e9;
   }
-  /* ------nav-link-current-dot----- */
-.header-mobile-menu-nav-link.header-nav-current-dot {
-  position: relative;
-}
-.header-mobile-menu-nav-link.header-nav-current-dot::after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  bottom: -10px;
-  transform: translateX(-50%);
-  width: 8px;
-  height: 8px;
-  border-radius: 100%;
-  background-color: #3350e9;
-}
-/* ------#nav-link-current-dot----- */
-  
+  /* ------#nav-link-current-dot----- */
 }
 /* ----test -----*/
 
@@ -156,7 +140,6 @@
   background-color: rgba(10, 110, 84, 0.68);
   transition: opacity 600ms ease-in-out, visibility 600ms ease-in-out;
   z-index: 9999999999999;
-
 }
 
 .sidebar-menu.is-open {
@@ -271,24 +254,22 @@
   fill: #3350e9;
 }
 
-/* ------nav-link-current-dot----- */
-
-.header-mobile-menu-nav-link.header-nav-current-dot {
+/* ------memu-current-dot----- */
+.header-mobile-menu-nav-link.menu-current-spot {
   position: relative;
 }
-.header-mobile-menu-nav-link.header-nav-current-dot::after {
+.header-mobile-menu-nav-link.menu-current-spot::after {
   content: '';
   position: absolute;
   left: 50%;
   bottom: -10px;
   transform: translateX(-50%);
-
   width: 8px;
   height: 8px;
   border-radius: 100%;
   background-color: #3350e9;
 }
-/* ------#nav-link-current-dot----- */
+/* ------#menu-current-spot----- */
 
 @media screen and (min-width: 768px) {
   .mobile-menu-container {
@@ -312,28 +293,28 @@
     height: 20px;
   }
 
-.header-mobile-menu-nav {
-  margin-bottom: 350px;
-}
+  .header-mobile-menu-nav {
+    margin-bottom: 350px;
+  }
 
-.header-mobile-menu-social-media-list {
-  gap: 10px;
-  width: 128px;
-  height: 36px;
-}
+  .header-mobile-menu-social-media-list {
+    gap: 10px;
+    width: 128px;
+    height: 36px;
+  }
 
-.header-mobile-menu-social-media-item {
-  border: 1px solid rgba(251, 251, 251, 0.1);
-  border-radius: 10px;
-  padding: 8px;
-  width: 36px;
-  height: 36px;
-}
+  .header-mobile-menu-social-media-item {
+    border: 1px solid rgba(251, 251, 251, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+    width: 36px;
+    height: 36px;
+  }
 
-.header-mobile-menu-social-media-link-icon {
-  width: 20px;
-  height: 20px;
-}
+  .header-mobile-menu-social-media-link-icon {
+    width: 20px;
+    height: 20px;
+  }
 }
 
 @media screen and (min-width: 1280px) {

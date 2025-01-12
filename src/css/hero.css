@@ -180,6 +180,23 @@ a {
     width: 146px;
   }
 
+  .hero-amanda {
+    width: 60px;
+    height: 60px;
+  }
+
+  .hero-ethan {
+    width: 60px;
+    height: 60px;
+    left: 44px;
+  }
+
+  .hero-fleur {
+    width: 60px;
+    height: 60px;
+    left: 88px;
+  }
+
   .hero-watch {
     margin-top: 0;
   }

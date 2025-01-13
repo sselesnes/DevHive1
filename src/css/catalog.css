@@ -71,9 +71,15 @@
     border-radius: 16px;
     font-weight: 500;
     font-size: 14px;
-    line-height: 129%;
     text-align: center;
     color: #fbfbfb;
+    border: none;
+    padding: 0;
+  }
+  .catalog-show-more:hover,
+  .catalog-show-more:active {
+    background-color: #1f3cd4;
+    transition: background 300ms cubic-bezier(0.5, 0, 0.3, 1);
   }
 }
 
@@ -92,7 +98,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
     row-gap: 32px;
-    column-gap: 16px;
   }
   .catalog-card {
     gap: 7px;
@@ -113,8 +118,9 @@
   .catalog {
     padding-bottom: 50px;
   }
-  .catalog-list {
-    column-gap: 23px;
+  .catalog-card {
+    gap: 7px;
+    padding: 24px 32px;
   }
   .catalog-card-item-name {
     width: 302px;

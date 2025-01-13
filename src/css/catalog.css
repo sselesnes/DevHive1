@@ -1,7 +1,7 @@
 .catalog {
-  padding-top: 60px;
-  background-color: #fff;
+  padding-bottom: 30px;
 }
+
 .catalog-show-more {
   display: none;
 }
@@ -71,7 +71,6 @@
     border-radius: 16px;
     font-weight: 500;
     font-size: 14px;
-    line-height: 129%;
     text-align: center;
     color: #fbfbfb;
   }
@@ -79,7 +78,7 @@
 
 @media only screen and (min-width: 768px) {
   .catalog {
-    padding-top: 80px;
+    padding-bottom: 40px;
   }
   .catalog-header {
     font-weight: 600;
@@ -92,7 +91,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
     row-gap: 32px;
-    column-gap: 16px;
   }
   .catalog-card {
     gap: 7px;
@@ -110,8 +108,12 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .catalog-list {
-    column-gap: 23px;
+  .catalog {
+    padding-bottom: 50px;
+  }
+  .catalog-card {
+    gap: 7px;
+    padding: 24px 32px;
   }
   .catalog-card-item-name {
     width: 302px;

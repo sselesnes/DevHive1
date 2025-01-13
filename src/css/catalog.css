@@ -79,6 +79,7 @@
   .catalog-show-more:hover,
   .catalog-show-more:active {
     background-color: #1f3cd4;
+    transition: background 300ms cubic-bezier(0.5, 0, 0.3, 1);
   }
 }
 

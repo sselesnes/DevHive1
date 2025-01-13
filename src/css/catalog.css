@@ -1,3 +1,119 @@
 .catalog {
-background-color: #F0F
+  padding-top: 60px;
+  background-color: #fff;
+}
+.catalog-show-more {
+  display: none;
+}
+.catalog-header {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+}
+.catalog-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.catalog-card {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  background-color: #f3f3f3;
+  padding: 24px 28px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.catalog-card-item-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px 0;
+}
+.catalog-card-item-desc {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.catalog-card-item-name {
+  padding-bottom: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.catalog-card-item-price {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
+}
+
+@media only screen and (max-width: 767px) {
+  .catalog-card:nth-last-child(-n + 2) {
+    display: none;
+  }
+  .catalog-show-more {
+    width: 160px;
+    height: 48px;
+    margin: 40px auto 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3350e9;
+    border-radius: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+    color: #fbfbfb;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .catalog {
+    padding-top: 80px;
+  }
+  .catalog-header {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 92%;
+    margin-bottom: 40px;
+  }
+  .catalog-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 32px;
+    column-gap: 16px;
+  }
+  .catalog-card {
+    gap: 7px;
+    padding: 24px 32px;
+  }
+  .catalog-card-item-img {
+    padding: 9px 0;
+  }
+  .catalog-card-item-name {
+    width: 278px;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .catalog-list {
+    column-gap: 23px;
+  }
+  .catalog-card-item-name {
+    width: 302px;
+  }
 }

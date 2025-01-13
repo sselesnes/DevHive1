@@ -1,0 +1,78 @@
+<section class="container contact-us_container" id="сontact-us">
+  <h2 class="contact-us_title">Contact Us</h2>
+  <div class="contact-us_info">
+    <div class="contact-us_first-container">
+      <p class="contact-us_text">
+        Please use the form below to contact us. Enter your name, email, phone,
+        and message and we'll get back to you shortly.
+      </p>
+
+      <!-- Форма -->
+      <form>
+        <input
+          class="form-input-person"
+          type="name"
+          name="user-name"
+          placeholder="Name"
+          required
+        />
+
+        <input
+          class="form-input-person"
+          type="email"
+          name="form-person-email"
+          placeholder="Email"
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+          required
+        />
+
+        <input
+          class="form-input-person"
+          type="tel"
+          name="form-person-phone"
+          placeholder="+380"
+          pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+          required
+        />
+
+        <textarea class="form-person-comment" placeholder="Comment"></textarea>
+      </form>
+
+      <!-- Кнопка -->
+      <button class="contact-us_btn" type="submit">
+        <p class="btn-text">Send</p>
+      </button>
+    </div>
+
+    <!-- Картинка -->
+    <picture
+      ><source
+        media="(min-width: 1280px)"
+        srcset="
+          /img/contact-us/cu-desktop_1x.webp 1x,
+          /img/contact-us/cu-desktop_2x.webp 2x
+        "
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          /img/contact-us/cu-tablet_1x.webp 1x,
+          /img/contact-us/cu-tablet_2x.webp 2x
+        "
+      />
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          /img/contact-us/cu-mobile_1x.webp 1x,
+          /img/contact-us/cu-mobile_2x.webp 2x
+        "
+      />
+      <img
+        src="/img/contact-us/wrist-watch.webp"
+        alt="wrist watch"
+        width="704"
+        height="556"
+      />
+    </picture>
+  </div>
+</section>

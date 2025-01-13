@@ -1,14 +1,14 @@
 
 .about-section {
   background-color: #fbfbfb;
-  padding: 30px 20px 30px 20px;
 }
-.about-section .container.about {
+.about-section .container {
+  margin-bottom: 60px;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
-.container.about .about-container-text {
+.container .about-container-text {
   background-color: #f3f3f3;
   border: 1px solid #000;
   border-radius: 50px;
@@ -65,7 +65,7 @@
 /* TABLET */
 @media (min-width: 768px) {
   .about-section {
-    padding: 40px 32px 40px 32px;
+
   }
   .about-header {
     font-size: 48px;
@@ -75,10 +75,11 @@
     font-size: 16px;
     line-height: 125%;
   }
-  .about .container.about {
+  .about .container {
     gap: 40px;
+    margin-bottom: 80px;
   }
-  .container.about .about-container-text {
+  .container .about-container-text {
     width: 704px;
     height: 512px;
     padding: 80px 60px 80px 60px;
@@ -89,7 +90,7 @@
   .about-container-img {
     width: 704px;
   }
-  .about .container.about {
+  .about .container {
   }
   .about-container-image {
     width: 704px;
@@ -99,13 +100,14 @@
 /* DESKTOP */
 @media (min-width: 1280px) {
   .about-section {
-    padding: 50px 65px 50px 65px;
+    
   }
-  .about-section .container.about {
+  .about-section .container {
     flex-wrap: nowrap;
     justify-content: center;
+    margin-bottom: 100px;
   }
-  .container.about .about-container-text {
+  .container .about-container-text {
     width: 580px;
     height: 532px;
   }

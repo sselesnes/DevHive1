@@ -40,13 +40,13 @@
 }
 .about-container-text .about-link {
   padding: 15px 37px 15px 38px;
-  display: inline-block;
   border-radius: 16px;
   background-color: #3350e9;
   color: #fbfbfb;
   border-style: none;
   width: 160px;
   height: 48px;
+  transition: background 300ms cubic-bezier(0.5, 0, 0.3, 1);
 }
 .about-link:hover {
   background-color: #1f3cd4;
@@ -107,14 +107,13 @@
     justify-content: center;
   }
   .container.about .about-container-text {
-    width: 530px;
+    width: 580px;
     height: 532px;
   }
   .about-container-img {
-    width: 530px;
   }
   .about-container-image {
-    width: 530px;
+    width: 580px;
     height: 532px;
   }
   .about-list {

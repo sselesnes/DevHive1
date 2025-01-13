@@ -1,4 +1,5 @@
 .catalog {
+  padding-top: 30px;
   padding-bottom: 30px;
 }
 
@@ -73,11 +74,19 @@
     font-size: 14px;
     text-align: center;
     color: #fbfbfb;
+    border: none;
+    padding: 0;
+  }
+  .catalog-show-more:hover,
+  .catalog-show-more:active {
+    background-color: #1f3cd4;
+    transition: background 300ms cubic-bezier(0.5, 0, 0.3, 1);
   }
 }
 
 @media only screen and (min-width: 768px) {
   .catalog {
+    padding-top: 40px;
     padding-bottom: 40px;
   }
   .catalog-header {
@@ -109,6 +118,7 @@
 
 @media only screen and (min-width: 1280px) {
   .catalog {
+    padding-top: 50px;
     padding-bottom: 50px;
   }
   .catalog-card {

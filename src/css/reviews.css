@@ -24,11 +24,10 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 8px;
+  gap: 24px;
   border-radius: 30px;
   padding: 32px 36px;
   max-width: 335px;
-  height: 262px;
   background: #f3f3f3;
 }
 
@@ -44,7 +43,6 @@
   flex-direction: column;
   gap: 8px;
   max-width: 263px;
-  height: 118px;
 }
 
 .reviews-title-about {
@@ -77,12 +75,8 @@
   }
 
   .reviews-list {
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
     gap: 16px;
     width: 704px;
-    height: 272px;
   }
 
   .reviews-item,
@@ -91,18 +85,16 @@
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    gap: 8px;
+    gap: 24px;
     column-gap: 20px;
     border-radius: 30px;
     padding: 32px 36px;
     width: 344px;
-    height: 272px;
     background: #f3f3f3;
   }
 
   .reviews-about {
-    width: 272px;
-    height: 128px;
+    min-width: 272px;
   }
 
   .reviews-title-about {
@@ -132,7 +124,7 @@
     width: 1150px;
     gap: 20px;
   }
-
+  .reviews-item,
   .reviews-item-one,
   .reviews-item-two {
     display: flex;
@@ -140,16 +132,15 @@
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    gap: 8px;
+    gap: 24px;
     border-radius: 30px;
     padding: 32px 36px;
-    width: 370px;
-    height: 272px;
+    min-width: 370px;
     background: #f3f3f3;
   }
 
   .reviews-about {
-    width: 298px;
+    min-width: 298px;
   }
 
   .reviews-title-about {
@@ -168,5 +159,6 @@
     letter-spacing: -0.02em;
     text-align: center;
     color: rgba(12, 12, 12, 0.4);
+    width: 298px;
   }
 }

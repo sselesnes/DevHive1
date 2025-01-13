@@ -34,6 +34,8 @@
 
 .form-input-person {
   width: 100%;
+  font-weight: 400;
+  font-size: 14px;
   height: 42px;
   padding: 12px 14px;
   border-radius: 12px;
@@ -122,11 +124,13 @@
   }
 
   .form-input-person {
+    font-size: 16px;
     height: 52px;
     padding: 16px 18px;
   }
 
   .form-person-comment {
+    font-size: 16px;
     height: 90px;
     margin-bottom: 32px;
   }

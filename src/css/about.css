@@ -43,7 +43,9 @@
   color: rgba(12, 12, 12, 0.7);
 }
 .about-container-text .about-link {
-  padding: 16px 38px 16px 38px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 160px;
   height: 48px;
   font-family: var(--font-family);

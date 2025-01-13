@@ -1,7 +1,9 @@
 /* ---------- Мобилка ---------- */
 .contact-us_container {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 30px;
+  /* padding-bottom: 60px; */
+  /* вирішили ділити по 50% між секціями */
+  /* падінг ботом нема на макеті */
 }
 
 .contact-us_title {
@@ -96,8 +98,8 @@
 /* ---------- Планшет ---------- */
 @media only screen and (min-width: 768px) {
   .contact-us_container {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    /* padding-bottom: 80px; */
   }
 
   .contact-us_title {
@@ -140,8 +142,9 @@
 /* ---------- Десктоп ---------- */
 @media only screen and (min-width: 1280px) {
   .contact-us_container {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+
+    /* padding-bottom: 100px; */
   }
 
   .contact-us_info {

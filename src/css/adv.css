@@ -22,8 +22,7 @@
   background-color: #0c0c0c;
   position: relative;
   border-radius: 30px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-}
+ }
 
 .background-image {
   background-image: url(/img/img-adv/adv_bg_mobile.jpg);
@@ -75,7 +74,7 @@
   line-height: 1.28;
   text-align: center;
   color: #fbfbfb;
-  background-color: transparent;
+  background-color: #0c0c0c;
   cursor: pointer;
 }
 

@@ -30,7 +30,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 18px 0;
+  margin: 18px 0;
 }
 .catalog-card-item-desc {
   display: flex;
@@ -38,7 +38,8 @@
   flex-direction: column;
 }
 .catalog-card-item-name {
-  padding-bottom: 8px;
+  max-width: 100%;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: -0.02em;
@@ -104,7 +105,7 @@
     padding: 24px 32px;
   }
   .catalog-card-item-img {
-    padding: 9px 0;
+    margin: 9px 0;
   }
   .catalog-card-item-name {
     width: 278px;

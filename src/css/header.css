@@ -173,6 +173,12 @@
   visibility: visible;
 }
 
+@media screen and (max-width: 767px) and (min-resolution: 192dpi) {
+  .mobile-menu-container {
+    background-image: url(/img/header-mobile-menu/mob-bgimage@2.jpg);
+  }
+}
+
 .sidebar-menu:not(.is-open) .mobile-menu-container {
   opacity: 0;
   pointer-events: none;
@@ -282,7 +288,6 @@
     background-position: center;
     background-size: cover;
   }
-
   .header-mobile-menu-btn {
     width: 40x;
     height: 40px;
@@ -314,6 +319,12 @@
   .header-mobile-menu-social-media-link-icon {
     width: 20px;
     height: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .mobile-menu-container {
+    background-image: url(/img/header-mobile-menu/tab-bgimage@2.jpg);
   }
 }
 

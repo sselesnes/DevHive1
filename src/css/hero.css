@@ -2,6 +2,11 @@ a {
   text-decoration: none;
 }
 
+.hero {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .hero-div {
   display: flex;
   flex-direction: column;
@@ -11,8 +16,6 @@ a {
   margin: auto;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 60px;
-  margin-bottom: 30px;
 }
 
 .hero-tablet {
@@ -87,14 +90,17 @@ a {
 }
 
 @media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
   .hero-div {
     max-width: 768px;
     min-width: unset;
     padding-left: 32px;
     padding-right: 32px;
-    padding-top: 80px;
-    margin-bottom: 40px;
-    gap: 40px;
+
+    gap: 80px;
   }
 
   .hero-tablet {
@@ -157,12 +163,14 @@ a {
 }
 
 @media screen and (min-width: 1280px) {
+  .hero {
+    padding-bottom: 100px;
+  }
   .hero-div {
     max-width: 1280px;
     padding-left: 65px;
     padding-right: 65px;
     gap: 40px;
-    margin-bottom: 50px;
   }
 
   .hero-tablet {

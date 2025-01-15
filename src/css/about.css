@@ -1,15 +1,11 @@
-
 .about-section {
   background-color: #fbfbfb;
   padding-bottom: 60px;
 }
 .about-section .container {
-
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .container .about-container-text {
@@ -29,9 +25,6 @@
   font-size: 32px;
   line-height: 100%;
   letter-spacing: -0.02em;
-}
-.about-list {
-
 }
 .about-list-item:first-child {
   margin-bottom: 20px;
@@ -66,7 +59,7 @@
 .about-container-image {
   border-radius: 30px;
 }
-.about-container-picture{
+.about-container-picture {
   border-radius: 30px;
   width: 335px;
   height: 446px;
@@ -76,18 +69,18 @@
   height: 446px;
   border-radius: 50px;
 }
-.about-link-wrapper{
+.about-link-wrapper {
   margin-top: 10px;
 }
-@media (min-width:340px){
-  .about-link-wrapper{
+@media (min-width: 340px) {
+  .about-link-wrapper {
     margin-top: 20px;
   }
 }
-@media (min-width:375px){
-.about-link-wrapper{
-  margin-top: 40px;
-}
+@media (min-width: 375px) {
+  .about-link-wrapper {
+    margin-top: 40px;
+  }
 }
 @media (max-width: 767px) {
   /* MOBILE */
@@ -98,13 +91,13 @@
 }
 /* TABLET */
 @media (min-width: 768px) {
-  .about-link-wrapper{
+  .about-link-wrapper {
     margin-top: 60px;
   }
   .about-section {
     padding-bottom: 80px;
   }
-  .about-section .container{
+  .about-section .container {
     width: 768px;
     height: 1064px;
   }
@@ -131,20 +124,18 @@
   .about-container-img {
     width: 704px;
   }
-  .about .container {
-  }
   .about-container-image {
     width: 704px;
     height: 512px;
   }
-  .about-container-picture{
+  .about-container-picture {
     width: 704px;
     height: 512px;
   }
 }
 /* DESKTOP */
 @media (min-width: 1280px) {
-  .about-link-wrapper{
+  .about-link-wrapper {
     margin-top: 40px;
   }
   .about-section {
@@ -160,8 +151,6 @@
     width: 580px;
     height: 532px;
   }
-  .about-container-img {
-  }
   .about-container-image {
     width: 580px;
     height: 532px;
@@ -169,7 +158,7 @@
   .about-list {
     margin-bottom: 60px;
   }
-  .about-container-picture{
+  .about-container-picture {
     width: 530px;
     height: 532px;
   }

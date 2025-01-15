@@ -3,10 +3,10 @@
 }
 .top-section {
   max-width: 335px;
-  height: 581px;
+  /* height: 581px; */
   border-radius: 30px;
   padding: 40px 28px 28px 28px;
-  background-color: #0C0C0C;
+  background-color: #0c0c0c;
 }
 .brand-section {
   display: flex;
@@ -19,7 +19,7 @@
   font-weight: 500;
   font-size: 16px;
   letter-spacing: -0.02em;
-  color: #FBFBFB;
+  color: #fbfbfb;
 }
 .footer-item {
   display: flex;
@@ -33,7 +33,7 @@
   align-items: center;
   border: 1px solid rgba(251, 251, 251, 0.1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: #A7A7A7;
+  fill: #a7a7a7;
   width: 34px;
   height: 34px;
   padding: 8px;
@@ -41,7 +41,7 @@
 }
 .footer-media:hover,
 .footer-media:focus {
-  fill: #FBFBFB;
+  fill: #fbfbfb;
 }
 .footer-contact {
   order: 2;
@@ -51,7 +51,7 @@
   border: 1px solid rgba(251, 251, 251, 0.2);
   text-transform: uppercase;
   text-align: center;
-  color: #FBFBFB;
+  color: #fbfbfb;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.33;
@@ -67,7 +67,7 @@
   line-height: 1.2;
   letter-spacing: -0.02em;
   text-align: center;
-  color: #FBFBFB;
+  color: #fbfbfb;
   margin-bottom: 92px;
 }
 .section-group-footer {
@@ -92,7 +92,7 @@
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  color: #FBFBFB;
+  color: #fbfbfb;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.33;
@@ -105,7 +105,7 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 1.33;
-  color: #FBFBFB;
+  color: #fbfbfb;
   width: 83px;
 }
 .bottom-section {
@@ -145,7 +145,7 @@
     font-weight: 500;
     font-size: 20px;
     letter-spacing: -0.02em;
-    color: #FBFBFB;
+    color: #fbfbfb;
   }
   .footer-item {
     margin-bottom: 0;
@@ -160,7 +160,7 @@
     line-height: 1.28;
     text-transform: uppercase;
     text-align: center;
-    color: #FBFBFB;
+    color: #fbfbfb;
     width: 160px;
     height: 48px;
     margin-bottom: 0;
@@ -171,7 +171,7 @@
     line-height: 1.14;
     letter-spacing: -0.02em;
     text-align: center;
-    color: #FBFBFB;
+    color: #fbfbfb;
     width: 524px;
     margin: 0 auto;
     margin-bottom: 100px;
@@ -185,7 +185,7 @@
     font-size: 14px;
     line-height: 1.28;
     text-align: center;
-    color: #FBFBFB;
+    color: #fbfbfb;
     width: 400px;
     height: 18px;
     column-gap: 19px;
@@ -195,7 +195,7 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 1.28;
-    color: #FBFBFB;
+    color: #fbfbfb;
     width: 162px;
   }
   .bottom-section {
@@ -223,7 +223,7 @@
     font-weight: 500;
     font-size: 20px;
     letter-spacing: -0.02em;
-    color: #FBFBFB;
+    color: #fbfbfb;
   }
   .footer-contact {
     order: 3;
@@ -232,7 +232,7 @@
     line-height: 1.28;
     text-transform: uppercase;
     text-align: center;
-    color: #FBFBFB;
+    color: #fbfbfb;
   }
   .footer-h2 {
     order: 2;
@@ -241,7 +241,7 @@
     line-height: 1.14;
     letter-spacing: -0.02em;
     text-align: center;
-    color: #FBFBFB;
+    color: #fbfbfb;
     margin-bottom: 126px;
   }
   .menu-item {
@@ -249,7 +249,7 @@
     font-size: 14px;
     line-height: 1.28;
     text-align: center;
-    color: #A7A7A7;
+    color: #a7a7a7;
     width: 505px;
     column-gap: 40px;
   }
@@ -257,24 +257,24 @@
   .footer-menu {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
+
   .footer-menu:hover,
   .footer-menu:focus {
-    color: #FBFBFB;
+    color: #fbfbfb;
   }
 
   .adress-text {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.28;
-    color: #A7A7A7;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    color: #a7a7a7;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-.adress-text:hover,
-.adress-text:focus {
-  color: #FBFBFB;
-}
+  .adress-text:hover,
+  .adress-text:focus {
+    color: #fbfbfb;
+  }
 
   .bottom-section {
     font-weight: 500;
@@ -283,5 +283,4 @@
     letter-spacing: -0.02em;
     color: rgba(251, 251, 251, 0.5);
   }
-
 }

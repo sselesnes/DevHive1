@@ -1,11 +1,11 @@
 (() => {
   const refs = {
     // Додати атрибут data-modal-open на кнопку відкриття
-    openMobileBtn: document.querySelector('[mobile-burger-btn-open]'),
+    openMobileBtn: document.querySelector('[data-mobile-burger-btn-open]'),
     // Додати атрибут data-modal-close на кнопку закриття
-    closeMobileBtn: document.querySelector('[mobile-burger-btn-close]'),
+    closeMobileBtn: document.querySelector('[data-mobile-burger-btn-close]'),
     // Додати атрибут data-modal на бекдроп модалки
-    mobile: document.querySelector('[backdrop-mobile]'),
+    mobile: document.querySelector('[data-backdrop-mobile]'),
   };
 
   refs.openMobileBtn.addEventListener('click', toggleMobile);

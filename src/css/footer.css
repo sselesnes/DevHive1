@@ -233,7 +233,13 @@
     text-transform: uppercase;
     text-align: center;
     color: #fbfbfb;
+    
   }
+  .footer-contact:hover,
+  .footer-contact:focus {
+    color: #A7A7A7;
+  }
+  
   .footer-h2 {
     order: 2;
     font-weight: 600;

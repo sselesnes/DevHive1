@@ -33,8 +33,7 @@
   gap: 20px;
 }
 @media screen and (min-width: 768px) {
-  .block-joint {
-    width: 687px;
+  .block-joint {    
     height: 1116px;
     gap: 40px;
   }
